@@ -1,0 +1,5 @@
+chrome-debug-profile/
+.vscode/
+.env
+node_modules/
+cookies.json
