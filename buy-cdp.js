@@ -93,7 +93,7 @@ async function checkPort9222() {
   let clicked = false;
   let lastLogText = '';
   let pollCount = 0;
-  const pollIntervalMs = 50;  // 准点抢时更快响应（原 100ms）
+  const pollIntervalMs = 50;  
   const shortTimeout = 1500;
 
   while (!clicked) {
