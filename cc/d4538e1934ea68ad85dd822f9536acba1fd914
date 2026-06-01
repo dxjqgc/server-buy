@@ -1,0 +1,14 @@
+buy-cdp.js
+  h_64850f8677ebe5 28
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.4",
+  "base_commit_sha": "ccd4538e1934ea68ad85dd822f9536acba1fd914",
+  "prompts": {},
+  "humans": {
+    "h_64850f8677ebe5": {
+      "author": "rhett.hu"
+    }
+  }
+}
