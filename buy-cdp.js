@@ -25,6 +25,7 @@ async function checkPort9222() {
 
 (async () => {
   console.log('[抢购] 开始执行（CDP 模式：连接已打开的 Chrome）...');
+  console.log('sss');
 
   let cookies = [];
   if (fs.existsSync('./cookies.json')) {
