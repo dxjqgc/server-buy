@@ -9,7 +9,7 @@ const fs = require('fs');
   await page.goto("https://cloud.tencent.com/login");
 
   console.log("请在浏览器中手动登录腾讯云...");
-  await page.waitForTimeout(30000); // 给你 30 秒登录
+  await page.waitForTimeout(30000);
 
   const cookies = await context.cookies();
   fs.writeFileSync('./cookies.json', JSON.stringify(cookies, null, 2));
